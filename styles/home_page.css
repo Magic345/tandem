@@ -1,0 +1,28 @@
+@import url('../resurces/fonts/stylesheet.css'); /*RFDewiCondensed*/
+
+.menu-button {
+    margin-right: 12px;
+    font-family: 'RF Dewi Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.menu-button:last-child {
+    margin-right: 0px;
+}
+
+.btn-primary {
+    background-color: #144F9D !important;
+    border-radius: 12px;
+}
+
+.title span {
+    color: #144F9D;
+}
+
+.section_description {
+    font-family: "RF Dewi Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 238px;
+}
