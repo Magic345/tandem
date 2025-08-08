@@ -20,9 +20,16 @@
     color: #144F9D;
 }
 
-.section_description {
+.description_section {
     font-family: "RF Dewi Condensed", sans-serif;
     font-size: 48px;
     font-weight: 800;
     margin-top: 238px;
+}
+
+.description_content .secondary {
+    font-family: "RF Dewi Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 46px;
 }
