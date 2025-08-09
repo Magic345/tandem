@@ -20,6 +20,8 @@
     color: #144F9D;
 }
 
+/*!!!!!!!!!!!!! переписать параметры !!!!!!!!!!!!!*/
+
 .description_section {
     font-family: "RF Dewi Condensed", sans-serif;
     font-size: 48px;
@@ -33,3 +35,32 @@
     font-weight: 200;
     margin-top: 46px;
 }
+
+.advantages_section .title {
+    font-family: "RF Dewi Condensed", sans-serif;
+    font-size: 36px;
+    text-decoration: solid;
+    margin-bottom: 120px;
+}
+
+.card {
+    background-color: #144F9D;
+    border-radius: 24px;
+    width: 318px;
+    height: 248px;
+}
+
+.advantages_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car_image {
+    position: static; /* Убираем absolute */
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 318px;
+    height: 318px;
+}
+
