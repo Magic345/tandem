@@ -18,16 +18,15 @@
 
 
 .main-title{
-    font-family: "RF Dewi Condensed", sans-serif;
-    font-size: 48px;
-    font-weight: 800;
+    font-family: "RF Dewi Extended", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .main-title span {
     color: #144F9D;
 }
 
-/*!!!!!!!!!!!!! переписать параметры !!!!!!!!!!!!!*/
 
 .description_section {
     font-weight: 800;
@@ -35,16 +34,16 @@
 }
 
 .description_content .secondary {
-    font-family: "RF Dewi Condensed", sans-serif;
+    font-family: "RF Dewi Extended", sans-serif;
     font-size: 24px;
-    font-weight: 200;
+    font-weight: normal;
     margin-top: 46px;
 }
 
 .title {  
-    font-family: "RF Dewi Condensed", sans-serif;
-    font-size: 36px;
-    text-decoration: solid;
+    font-family: "RF Dewi Extended", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
     margin-bottom: 120px;
 }
 
@@ -52,6 +51,7 @@
     background-color: #144F9D;
     width: 316px;
     height: 269.5px;
+    border: 2px solid #144F9D;
     overflow: hidden; /* Скрываем выходящее */
 }
 
@@ -95,4 +95,79 @@
 .application-form input {
    margin-bottom: 12px; 
    width: 374px;
-}   
+} 
+
+.form-control {
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn {
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.card-title {
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-description {
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: normal;
+    font-size: 16px;                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+
+.input-group{
+    width: 584px;
+}
+
+.struct-card-title{
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: bold;
+    font-size: 24px;        
+    line-height: 1.5; 
+}
+
+.contact p{
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: normal;
+    font-size: 16px;    
+}
+
+.contact img{
+    margin-right: 6.5px;
+}
+
+.address p{
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: normal;
+    font-size: 16px;    
+}
+
+.address img{
+    margin-right: 6.5px;
+}
+
+.map {
+    border-radius: 24px;
+    border: 2px solid #144F9D;
+}
+
+.about-futer {
+    background-color: #144F9D;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+    padding-top: 23px;
+}
+
+.about-futer p{
+    font-family: "RF Dewi Extended", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+}
