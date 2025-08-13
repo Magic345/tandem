@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/home_page.css"> <!--стили-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/home_page.css">
     <title>ТК Тандем</title>
 </head>
 <body>
@@ -40,10 +42,10 @@
 
         <section class="description_section">
             <div class="description_content">
-                <h1 class="title">
-                    ООО ТК «ТАНДЕМ» - <span>дистрибьютор продуктов питания</span> с сетью собственных офисов, складов и автопарком. 
+                <h1 class="main-title">
+                    <b>ООО ТК «ТАНДЕМ» - <span>дистрибьютор<br> продуктов питания</span> с сетью собственных<br> офисов, складов и автопарком. </b>
                 </h1>
-                <p class="text-secondary secondary">Нашими партнёрами являются :сетевые супермаркеты, линейная розница, профильные торговые точки. Активная клиентская база более 2000 торговых точек.</p>
+                <p class="text-secondary secondary">Нашими партнёрами являются: сетевые супермаркеты, линейная розница,<br> профильные торговые точки. Активная клиентская база более 2000 торговых точек.</p>
             </div>
             <div class="col-md-6 col-lg-4" style="margin-top: 27px;">
                 <!-- Форма с input и кнопкой -->
@@ -52,7 +54,7 @@
                         type="tel" 
                         class="form-control rounded-3 " 
                         style="margin-right: 12px;"
-                        placeholder="Введите номер телефона"
+                        placeholder="Номер телефона"
                         aria-label="Номер телефона"
                     >
                     <button class="btn btn-primary rounded-3 " type="button">Заказать обратный звонок</button>
@@ -60,7 +62,7 @@
             </div>
         </section>
 
-        <section class="card_section" style="margin-top: 331px;">
+        <section class="sec" style="margin-top: 331px;">
             <h1 class="title">
                 <b>Почему выгодно<br> работать с нашей компанией?</b>
             </h1>
@@ -123,7 +125,7 @@
                 </div>                
         </section>
 
-        <section class="card_section" style="margin-top: 331px;">
+        <section class="sec">
             <h1 class="title">
                 <b>Структура нашего предприятия</b>
             </h1>
@@ -173,52 +175,116 @@
         
         </section>
 
-        <section class="sec-carousel">
-
-
-
+        <section class="sec">
+            <h1 class="title">
+                <b>Структура нашего предприятия</b>
+            </h1>
+        <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-    
+                    <div class="swiper-slide"><img src="./resurces/img/владимирский стандарт.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./resurces/img/чудо.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./resurces/img/карат.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./resurces/img/чудо.svg" alt=""></div>
+                    
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+
 
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
             </div>
 
 
-
         </section>
+  
 
+        <section class="sec">
+            <h1 class="title" style="margin-bottom: 32px !important;">
+                <b>Остались вопросы?<br>Оставьте заявку и мы свяжемся с вами</b>
+            </h1>
 
+            <div class="contact d-flex justify-content-between" style="max-width: 606px;">
+                <p class="text-secondary">Наши контакты:</p>
+                <p class="contact-number"><img src="./resurces/img/иконки/трубка.svg" alt="">+7(949) 623-99-21</p>
+                <p class="contact-mail"><img src="./resurces/img/иконки/конверт.svg" alt="">tk_tandem_ooo@mail.ru</p>         
+            </div>
+            <div class="address d-flex justify-content-between" style="max-width: 743px;">
+                <p class="contact-number"><img src="./resurces/img/иконки/метка.svg" alt="">ул. 26 Бакинских Комиссаров 24</p>
+                <p class="contact-mail"><img src="./resurces/img/иконки/метка.svg" alt="">ул. Крылова 2</p>         
+                <p class="contact-mail"><img src="./resurces/img/иконки/метка.svg" alt="">ул. Мелитопольская 1</p>         
+            </div>
+            <div class="maps d-flex justify-content-between">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab3684f83d697b2d7e79bd45cb7176d45ce43bdd79036b8e907da193a160c16ba&amp;source=constructor" style="border-radius: 24px;" width="290" height="415" frameborder="0"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4f65d78942de8f18998375b601e0e98923371a0db310f9da283a51b6ab0b0519&amp;source=constructor" style="border-radius: 24px;" width="290" height="415" frameborder="0"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A853d97701036784ae629f1c6e751a288a8b84069ff504dffe13a2bb2ef1b217a&amp;source=constructor" style="border-radius: 24px;" width="290" height="415" frameborder="0"></iframe> 
+            
 
-
+            <form class="application-form" action="">
+                <input 
+                    type="text" 
+                    class="form-control rounded-3 " 
+                    placeholder="ФИО"
+                >
+                <input 
+                    type="tel" 
+                    class="form-control rounded-3 " 
+                    placeholder="Номер телефона"
+                    aria-label="Номер телефона"
+                >
+                <input type="email" class="form-control" placeholder="Электронная почта">
+                <textarea class="form-control" placeholder="Сообщение" style="height: 208px; margin-bottom: 12px;"></textarea>
+                <button class="btn btn-primary rounded-3 " style="width: 374px;" type="button">Заказать обратный звонок</button>
+            </form>
+            
+            </div>
+            
+        </section>
 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script>
-        const swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,  // Показывать 3 слайда
-            spaceBetween: 2,  // Отступ между слайдами
-            speed: 400,
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+
+            // Navigation arrows
             navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                slidesPerView: 2,
+                spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                slidesPerView: 3,
+                spaceBetween: 30
+                },
+                // when window width is >= 640px
+                640: {
+                slidesPerView: 3,
+                spaceBetween: 40
+                }
+            },            
         });
     </script>
 </body>
